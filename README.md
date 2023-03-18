@@ -1,6 +1,6 @@
 Hi! Welcome to my repository.
 
-Here I uploaded all my projects which I created while learning cyrptography
+Here I uploaded all my projects which I created while learning cryptography
 from 'Cracking Codes With Python' book, written by Al Sweigart,
 
 While this projects are based on what I learned from Al, I wrote all of
