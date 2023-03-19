@@ -11,6 +11,8 @@ all dependencies. Each file also has its own description and is pretty
 much self-explanatory.
 
 ## List of files and programs in this repository:
+- reverseCipher.py - Encrypts/decrypts message using reverse cipher. Input is user's text string entered via terminal. Output is this string reversed (first character becomes last etc.). **Imported modules:** 
+  - pyperclip (not compulsory).
 
 ## Contributing:
 
