@@ -18,6 +18,11 @@ much self-explanatory.
  **Note:** SYMBOLS constant must be the same for encryption and decyption of the message. It can be changed to match required list of symbols.
  **Imported modules:**
     - pyperclip (not compulsory).
+    
+- caesarHacker.py - Performs a brute-force attack against message encrypted with Caesar Cipher. Input is a text string (encrypted message). Output is list of strings, each line represents encrypted string shifted 'downwards' by a 'key' value. User has to check for correct decryption manually.
+**Note:** SYMBOLS constant must be the same as in program that encrypted the message.
+**Imported modules:**
+    - none.
 
 ## Contributing:
 
