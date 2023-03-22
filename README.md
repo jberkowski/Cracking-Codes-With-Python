@@ -11,18 +11,24 @@ all dependencies. Each file also has its own description and is pretty
 much self-explanatory.
 
 ## List of files and programs in this repository:
-- reverseCipher.py - Encrypts/decrypts message using reverse cipher. Input is user's text string entered via terminal. Output is this string reversed (first character becomes last etc.). **Imported modules:**
+- reverseCipher.py - Encrypts/decrypts message using reverse cipher. Input is user's text string entered via terminal. Output is this string reversed (first character becomes last etc.).\
+**Imported modules:**
     - pyperclip (not compulsory).
     
  - caesarCipher.py - Encrypts/decrypts message using Caesar Cipher. It is a simple shift cipher, which shifts all the symbols in a message by a given value, called 'key'. Input is user's text string and key (integer). Output is this string shifted ('upwards' for encryption and 'downwards' for decryption).
- **Note:** SYMBOLS constant must be the same for encryption and decyption of the message. It can be changed to match required list of symbols.
+ **Note:** SYMBOLS constant must be the same for encryption and decyption of the message. It can be changed to match required list of symbols.\
  **Imported modules:**
     - pyperclip (not compulsory).
     
-- caesarHacker.py - Performs a brute-force attack against message encrypted with Caesar Cipher. Input is a text string (encrypted message). Output is list of strings, each line represents encrypted string shifted 'downwards' by a 'key' value. User has to check for correct decryption manually.
-**Note:** SYMBOLS constant must be the same as in program that encrypted the message.
+- caesarHacker.py - Performs a brute-force attack against message encrypted with Caesar Cipher. Input is a text string (encrypted message). Output is list of strings, each line represents encrypted string shifted 'downwards' by a 'key' value. User has to check for correct decryption manually.\
+**Note:** SYMBOLS constant must be the same as in program that encrypted the message.\
 **Imported modules:**
     - none.
+
+- transpositionCipher.py - Encrypts/decrypts message using columnar transposition cipher (see [Wikipedia article](https://en.wikipedia.org/wiki/Transposition_cipher#Columnar_transposition)). Input is user's text string and key (integer). Output is text string (encrypted/decrypted message).\
+**Imported modules:**
+    - sys, math (compulsory),
+    - pyperclip (not compulsory).
 
 ## Contributing:
 
