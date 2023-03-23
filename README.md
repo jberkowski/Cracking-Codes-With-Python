@@ -15,7 +15,7 @@ much self-explanatory.
 **Imported modules:**
     - pyperclip (not compulsory).
     
- - caesarCipher.py - Encrypts/decrypts message using Caesar Cipher. It is a simple shift cipher, which shifts all the symbols in a message by a given value, called 'key'. Input is user's text string and key (integer). Output is this string shifted ('upwards' for encryption and 'downwards' for decryption).
+ - caesarCipher.py - Encrypts/decrypts message using Caesar Cipher. It is a simple shift cipher, which shifts all the symbols in a message by a given value, called 'key'. Input is user's text string and a key (integer). Output is this string shifted ('upwards' for encryption and 'downwards' for decryption).
  **Note:** SYMBOLS constant must be the same for encryption and decyption of the message. It can be changed to match required list of symbols.\
  **Imported modules:**
     - pyperclip (not compulsory).
@@ -25,10 +25,15 @@ much self-explanatory.
 **Imported modules:**
     - none.
 
-- transpositionCipher.py - Encrypts/decrypts message using columnar transposition cipher (see [Wikipedia article](https://en.wikipedia.org/wiki/Transposition_cipher#Columnar_transposition)). Input is user's text string and key (integer). Output is text string (encrypted/decrypted message).\
+- transpositionCipher.py - Encrypts/decrypts message using columnar transposition cipher (see [Wikipedia article](https://en.wikipedia.org/wiki/Transposition_cipher#Columnar_transposition)). Input is user's text string and a key (integer). Output is text string (encrypted/decrypted message).\
 **Imported modules:**
     - sys, math (compulsory),
     - pyperclip (not compulsory).
+    
+- transpositionFileCipher.py - Encrypts/decrypts message stored in a text file using columnar transposition cipher (see [Wikipedia article](https://en.wikipedia.org/wiki/Transposition_cipher#Columnar_transposition)). Input is location of text file containing message for processing and a key (integer). Output is a text file with processed message, named "*input_file_name*.crypted.txt".\
+**Imported modules:**
+    - sys, os, time (compulsory),
+    - transpositionCipher.py (compulsory).
 
 ## Contributing:
 
