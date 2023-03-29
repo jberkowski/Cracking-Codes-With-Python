@@ -35,7 +35,7 @@ def main():
     if result:
         print(f'Decryption completed. Check results above. Time: {totalTime}s')
     else:
-        print(f'Decryption failed: no valid kay found. Time: {totalTime}s')
+        print(f'Decryption failed: no valid key found. Time: {totalTime}s')
 
 def hackTransposition(message):
     '''Use all possible key to decrypt a message, then check if any
