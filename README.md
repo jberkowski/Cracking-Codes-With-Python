@@ -34,6 +34,11 @@ much self-explanatory.
 **Imported modules:**
     - sys, os, time (compulsory),
     - transpositionCipher.py (compulsory).
+    
+- transpositionHacker.py - Performs a brute-force attack against message encrypted with transposition cipher. Input is location of text file containing message for hacking. Output is a .txt file with possible decryption (possible decryption occurs when detectEnglish.isEnglish value is True). User has to manually check if decryption is correct and accept or refuse the result.
+**Imported modules:**
+    - sys, os, time (compulsory),
+    - transpositionCipher.py, detectEnglish.py (compulsory).
 
 ## Contributing:
 
