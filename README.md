@@ -35,7 +35,13 @@ much self-explanatory.
     - sys, os, time (compulsory),
     - transpositionCipher.py (compulsory).
     
-- transpositionHacker.py - Performs a brute-force attack against message encrypted with transposition cipher. Input is location of text file containing message for hacking. Output is a .txt file with possible decryption (possible decryption occurs when detectEnglish.isEnglish value is True). User has to manually check if decryption is correct and accept or refuse the result.
+- english_dictionary.txt - file that contain English words. Each word starts in a new line. File required for detectEnglish.py module.
+
+- detectEnglish.py - Compares a string with English dictionary and returns True or False, based on percentage of English words. Input is a text string. Output is True or False, based on comparision criteria specified in isEnglish function. If you like to change the language, put a .txt dictionary in the same folder as this module. Rename file in line 13. If you like to change the default criteria, change the values in line 49.\
+**Imported modules:**
+    - none.
+    
+- transpositionHacker.py - Performs a brute-force attack against message encrypted with transposition cipher. Input is location of text file containing message for hacking. Output is a .txt file with possible decryption (possible decryption occurs when detectEnglish.isEnglish value is True). User has to manually check if decryption is correct and accept or refuse the result.\
 **Imported modules:**
     - sys, os, time (compulsory),
     - transpositionCipher.py, detectEnglish.py (compulsory).
