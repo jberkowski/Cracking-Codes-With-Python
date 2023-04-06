@@ -45,6 +45,11 @@ much self-explanatory.
 **Imported modules:**
     - sys, os, time (compulsory),
     - transpositionCipher.py, detectEnglish.py (compulsory).
+    
+- transpositionTest.py - Runs 1000 enryptions/decryptions on a random text strings to test if transpositionCipher.py works properly. There is no input. Outpust is message generated after each test which informs user if test was succesfull. At the end a total number of failed test is displayed.\
+**Imported modules:**
+    - random, sys (compulsory),
+    - runEncryption, runDecryption from transpositionCipher.py (compulsory).
 
 ## Contributing:
 
