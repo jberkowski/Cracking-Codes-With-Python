@@ -50,6 +50,10 @@ much self-explanatory.
 **Imported modules:**
     - random, sys (compulsory),
     - runEncryption, runDecryption from transpositionCipher.py (compulsory).
+    
+- cryptomath.py - Module required for Affine Cipher program. Contains functions for finding Greatest Common Divisor and Modular Inverse.\
+**Imported modules:**
+    - none.
 
 ## Contributing:
 
