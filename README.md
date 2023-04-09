@@ -54,6 +54,12 @@ much self-explanatory.
 - cryptomath.py - Module required for Affine Cipher program. Contains functions for finding Greatest Common Divisor and Modular Inverse.\
 **Imported modules:**
     - none.
+    
+- affineCipher.py - Encrypts/decrypts message using affine cipher (see [Wikipedia article](https://en.wikipedia.org/wiki/Affine_cipher)). Input is user's text string and a key (integer, for encryption randomly generated key can be chosen). Output is text string (encrypted/decrypted message) and generated key (if chosen randomly for encryption).\
+**Imported modules:**
+    - sys, random (compulsory),
+    - gcd, findModInverse from cryptomath.py (compulsory),
+    - pyperclip (not compulsory).
 
 ## Contributing:
 
