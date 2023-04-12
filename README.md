@@ -60,6 +60,12 @@ much self-explanatory.
     - sys, random (compulsory),
     - gcd, findModInverse from cryptomath.py (compulsory),
     - pyperclip (not compulsory).
+    
+- affineHacker.py - Performs a brute-force attack against message encrypted with affine cipher. Input is text string (encrypted message). Output is text string (decrypted message) or error message ("Decryption failed", if no possible decryptions are found). If any key provides plaintext that meets requirements of detectEnglish.py module, it is displayed to user which has to decide if encryption is completed (by typing "D" and enter) or program has to look for another solution (any other user response).\
+**Imported modules:**
+    - pyperclip (not compulsory),
+    - affineCipher.py, detectEnglish.py, cryptomath.py (compulsory).
+
 
 ## Contributing:
 
