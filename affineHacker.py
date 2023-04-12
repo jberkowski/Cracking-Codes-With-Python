@@ -1,7 +1,7 @@
 '''Affine Hacker, by Jakub Berkowski jakub.berkowski@gmail.com
 Brute-force hacker for affine cipher.'''
 
-import pyperclip, time
+import pyperclip
 
 import affineCipher, detectEnglish, cryptomath
 
