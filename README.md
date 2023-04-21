@@ -66,10 +66,25 @@ much self-explanatory.
     - pyperclip (not compulsory),
     - affineCipher.py, detectEnglish.py, cryptomath.py (compulsory).
     
-- simpleSubSipher.py - Encrypts/decrypts message using substitution cipher (see [Wikipedia article](https://en.wikipedia.org/wiki/Affine_cipher)). Input is user's text string and a key (string containing every letter from SYMBOLS string exactly once, for encryption randomly generated key can be chosen). Output is text string (encrypted/decrypted message) and used key.\
+- simpleSubCipher.py - Encrypts/decrypts message using substitution cipher (see [Wikipedia article](https://en.wikipedia.org/wiki/Affine_cipher)). Input is user's text string and a key (string containing every letter from SYMBOLS string exactly once, for encryption randomly generated key can be chosen). Output is text string (encrypted/decrypted message) and used key.\
 **Imported modules:**
     - pyperclip (not compulsory),
     - random (compulsory).
+    
+- makeWordPatterns.py - creates a word patterns dictionary required by simpleSubHacker.py. Input is a english_dictionary.txt file with single word in a row (name of the file can be changed in line 20). Output is a wordPatterns.py file which contains word patterns dictionary like: 0.0.1.2: ['EELS', 'OOZE'].\
+**Note:** The longer the dictionary, the more possible decryptions will be found while hacking. Use longer dictionaries for longer messages!\
+**Imported modules:**
+    - none.
+    
+- wordPatterns.py - word pattern dictionary file required by simpleSubHacker.py. Contains word patterns dictionary like: 0.0.1.2: ['EELS', 'OOZE']. Can be downloaded or created by makeWordPatterns.py program.\
+**Imported modules:**
+    - none
+    
+- simpleSubHacker.py - performs an attack on message encrypted with simple substitution cipher using English word patterns. Decoding other languages requires 1) changing possible symbols list in line 9 and 2) using wordPatterns.py file created from language disctionary. Input is a text string (encrypted message). Output is a text string (decrypted message), with unknown letters marks as "_" and a key.\
+**Imported modules:**
+    - re (compulsory),
+    - makeWordPatterns.py, wordPatterns.py, simpleSubCipher.py (compulsory),
+    - pyperclip (not compulsory).
 
 
 ## Contributing:
