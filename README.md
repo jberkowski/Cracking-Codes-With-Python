@@ -85,6 +85,10 @@ much self-explanatory.
     - re (compulsory),
     - makeWordPatterns.py, wordPatterns.py, simpleSubCipher.py (compulsory),
     - pyperclip (not compulsory).
+    
+- freqAnalysis.py - required for hacking the Vigenere cipher. In code line 8 is a LANGFREQ string. It lists the letter from the most frequently appearing to least frequently appearing in English language (if you wish to crack messages in language other than English, change this string). Program compares number of occurences of all letters in input string with LANGFREQ string. Any match for the six most and six least frequent letters increases matchScore by 1. The Input is a text string. Output is a match score integer.\
+**Imported modules:**
+    - none.
 
 
 ## Contributing:
