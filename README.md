@@ -94,6 +94,10 @@ much self-explanatory.
 **Imported modules:**
     - pyperclip (not compulsory).
 
+- vigenereDictHacker.py - attempts a dictionary hack of message encrypted with Vigenere cipher. Works if key is a full proper English word. Refer to makeWordPatterns.py and detectEnglish.py description in order to change the key/message language. Input is a text string (encrypted message). Output is text string: first 50 characters of attemted decryption. If decryption looks correct, type "D" to accept and display full message.\
+**Imported modules:**
+    - detectEnglish.py, vigenereCipher.py, makeWordPatterns.py (compulsory),
+    - pyperclip (not compulsory).
 
 ## Contributing:
 
