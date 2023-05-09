@@ -98,6 +98,10 @@ much self-explanatory.
 **Imported modules:**
     - detectEnglish.py, vigenereCipher.py, makeWordPatterns.py (compulsory),
     - pyperclip (not compulsory).
+    
+- primeNum.py - contains functions related to checking/generating prime numbers. Required for some other programs.\
+**Imported modules:**
+    - math, random (compulsory).
 
 ## Contributing:
 
