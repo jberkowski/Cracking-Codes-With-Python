@@ -102,6 +102,12 @@ much self-explanatory.
 - primeNum.py - contains functions related to checking/generating prime numbers. Required for some other programs.\
 **Imported modules:**
     - math, random (compulsory).
+    
+- vigenereHacker.py - hacks a message encoded with a Vigenere Cipher (see [Wikipedia article](https://en.wikipedia.org/wiki/Vigenere_cipher)). First, it performs Kasiski Examination (see [Wikipedia article](https://en.wikipedia.org/wiki/Kasiski_examination)) to narrow down the number of possible keys. Then brute-froces through them, using English detection tool to recognize correct decryption. By changing the values of constants in lines 10, 11 and 12 you can change the number of keys tried to hack the message. Input is a text string (encrypted message). Output is a text string: encrypted message an a key used.\
+**Imported modules:**
+    - pyperclip (non-compulsory),
+    - itertools, re (compulsory),
+    - detectEnglish, vigenereCipher, freqAnalysis (compulsory).
 
 ## Contributing:
 
