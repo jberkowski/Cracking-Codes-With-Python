@@ -108,6 +108,11 @@ much self-explanatory.
     - pyperclip (non-compulsory),
     - itertools, re (compulsory),
     - detectEnglish, vigenereCipher, freqAnalysis (compulsory).
+    
+- makePublicPrivateKeys.py - generates private and public key and stores them in a separate .txt files.\
+**Imported modules:**
+    - random, sys, os (compulsory),
+    - primeNum, cryptomath (compulsory).
 
 ## Contributing:
 
