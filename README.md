@@ -114,6 +114,10 @@ much self-explanatory.
     - random, sys, os (compulsory),
     - primeNum, cryptomath (compulsory).
 
+- publicKeyCipher - encrypts/decrypts files using PUBLIC KEY (for encryption) or PRIVATE KEY (for decryption). This can be generated with makePublicPrivateKeys.py. Used key must be located in the same folder as this program. Input is path to an output file and text string (message to be processed). Output is a text file containing processed message.\
+**Imported modules:**
+    - os, sys, math (compulsory). 
+
 ## Contributing:
 
 Pull requests are welcome. You can also contact me on jakub.berkowski@gmail.com
